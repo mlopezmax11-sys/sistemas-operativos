@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Sistemas Operativos</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Sistemas Operativos</h1>
+    <nav>
+      <a href="os.html">Inicio</a>
+      <a href="funciones.html">Funciones</a>
+      <a href="tipos.html">Tipos</a>
+      <a href="Historia.html">Historia</a>
+ <a href="xp.html">Mi experiencia</a>
+    </nav>
+  </header>
+ <figure class="contenedor-imagen">
+    <img src="tipo.jpg" class="img-grande" alt="Funciones">
+  </figure>
+
+  <main>
+    <section>
+      <h2>Tipos de sistemas operativos</h2>
+      <p class="intro-text">
+        Hay muchas formas de clasificar un sistema operativo, ya sea según sus usuarios, tareas o recursos, así como por el entorno y su propósito. Estas tipologías se solapan y se complementan entre sí.
+      </p>
+
+      <h3 style="color: #0066cc; text-align: left; margin: 30px 0 15px 0; border-bottom: 2px solid #d0e3ff; padding-bottom: 5px;">
+        Según Usuarios y Tareas
+      </h3>
+      
+      <div class="funciones-grid">
+        
+        <div class="card-funcion">
+          <h3>Monousuario / Multiusuario</h3>
+          <p>Un sistema puede limitarse a un único usuario o permitir que varias personas trabajen simultáneamente con total aislamiento y gestión de permisos.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Monotarea / Multitarea</h3>
+          <p>Los sistemas operativos antiguos eran monotarea; hoy en día lo habitual es la multitarea con planificación, explotando el multinúcleo y multiprocesamiento.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Monosesión / Multisesión</h3>
+          <p>Sistemas clásicos solo permitían una sesión activa (Windows 95/98), frente a los entornos multisesión típicos de servidores como Windows Server o Linux.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Centralizado / Distribuido</h3>
+          <p>Un SO puede gestionar los recursos de una sola máquina física, o bien orquestar varias computadoras para ofrecer un sistema lógico unificado.</p>
+        </div>
+
+      </div>
+
+      <h3 style="color: #0066cc; text-align: left; margin: 40px 0 15px 0; border-bottom: 2px solid #d0e3ff; padding-bottom: 5px;">
+        Por Entorno y Propósito
+      </h3>
+
+      <div class="funciones-grid">
+
+        <div class="card-funcion">
+          <h3>Sistemas de Escritorio</h3>
+          <p>Windows, macOS y Linux de escritorio. Priorizan por completo la usabilidad, compatibilidad y productividad en ordenadores personales.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Sistemas Móviles</h3>
+          <p>Android e iOS optimizan la interacción táctil y la eficiencia energética. También existen variantes como webOS o watchOS en segmentos específicos.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Servidores</h3>
+          <p>Windows Server, Unix y distribuciones Linux (Debian, Ubuntu Server, RHEL). Están orientados a la fiabilidad, seguridad y gestión de cargas concurrentes.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Sistemas Embebidos</h3>
+          <p>FreeRTOS, VxWorks, QNX o Linux embebido. Se instalan en dispositivos con recursos muy limitados como IoT, automoción, routers y maquinaria.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Mainframe</h3>
+          <p>Plataformas como IBM z/OS, diseñadas exclusivamente para procesar transacciones masivas con disponibilidad extrema en banca, seguros o aerolíneas.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Virtualizados / Hipervisores</h3>
+          <p>Tipo 1 (VMware ESXi, Hyper‑V) y Tipo 2 (VirtualBox, VMware Workstation). Permiten ejecutar múltiples máquinas virtuales sobre un mismo hardware.</p>
+        </div>
+
+      </div>
+
+      <div class="stats-container" style="margin-top: 40px;">
+        <p>
+          <strong>Cloud OS (Sistemas en la Nube):</strong> Entornos basados en virtualización y contenedores (como OpenStack o Kubernetes) para gestionar recursos de cómputo a gran escala en centros de datos y nubes públicas.
+        </p>
+      </div>
+<h3 style="color: #0066cc; text-align: left; margin: 40px 0 15px 0; border-bottom: 2px solid #d0e3ff; padding-bottom: 5px;">
+        Por Modelo de Ejecución
+      </h3>
+
+      <div class="funciones-grid">
+
+        <div class="card-funcion">
+          <h3>Por Lotes (Batch)</h3>
+          <p>Un operador agrupa trabajos similares en lotes y el sistema los procesa de forma automática sin interacción directa. Se emplea en tareas periódicas de gran volumen como nóminas o estados bancarios (Ej. SCOPE o EXECII).</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Tiempo Compartido</h3>
+          <p>El sistema alterna entre tareas otorgando pequeños intervalos de tiempo a cada una, dando servicio a múltiples usuarios a la vez de forma interactiva. UNIX popularizó este modelo, que es la base de los sistemas actuales.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Tiempo Real (RTOS)</h3>
+          <p>Priorizan de forma estricta tiempos de respuesta garantizados ante estímulos externos. Son utilizados en robots, control de tráfico aéreo o sistemas industriales, dividiéndose en tiempo real estricto y flexible.</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Sistemas Distribuidos</h3>
+          <p>Varios equipos independientes con su propia CPU colaboran entre sí a través de una red para ofrecer mayor potencia de computación y un acceso remoto totalmente transparente (Ej. Sprite, Taos, Solaris-MC, Mach, Amoeba).</p>
+        </div>
+
+        <div class="card-funcion">
+          <h3>Sistemas de Red</h3>
+          <p>Están diseñados específicamente para ejecutarse y administrarse en servidores centrales que coordinan usuarios, grupos, permisos y servicios compartidos como archivos o autenticación (Ej. Clásicos como Unix y NetWare).</p>
+        </div>
+
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Mayo de 2026 - Introducción a los Sistemas Operativos</p>
+  </footer>
+
+</body>
+</html>
